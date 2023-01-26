@@ -15,7 +15,7 @@ public class AmazonHomepage {
 	private WebElement TextBox;
 
 	public AmazonHomepage() {
-       PageFactory.initElements(TestBase.driver, this);
+		PageFactory.initElements(TestBase.driver, this);
 	}
 
 	public void enterOnTextBox() {
