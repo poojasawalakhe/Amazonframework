@@ -17,7 +17,7 @@ public class TestBase {
 		driver.get("https://www.amazon.in/");
 	}
 	@AfterMethod
-	private void closeBrowser() {
+	private void tearDown() {
 		driver.close();
 		
 	}
